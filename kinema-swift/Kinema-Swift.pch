@@ -1,0 +1,66 @@
+//
+//  Kinema-Swift.pch
+//  kinema-swift
+//
+//  Created by huangqizai on 2018/7/3.
+//  Copyright © 2018年 FYCK. All rights reserved.
+//
+
+#ifndef Kinema_Swift_pch
+#define Kinema_Swift_pch
+
+/** 导入类 */
+#import "YYCategories.h"
+#import "MJExtension.h"
+#import "Masonry.h"
+#import "RTRootNavigationController.h"
+//#import "BaseTextField.h"
+//#import "TipModel.h"
+//#import "UIView+Gesture.h"
+//#import "BDWebViewViewController.h"
+#import "ApiServer.h"
+//#import "ApiServer+DataProcessing.h"
+#import "AFNetworkReachabilityManager.h"
+//#import "AppDelegate.h"
+//#import "UserManager.h"
+//#import "UIView+Toast.h"
+#import "AFHTTPSessionManager.h"
+#import <WXApi.h>
+//#import "UserModel.h"
+//#import <TOActionSheet.h>
+//#import "UIView+Additional.h"
+#import <Bugly/Bugly.h>
+//#import "UserManager.h"
+#import <MeiQiaSDK/MeiQiaSDK.h>
+//#import <MQChatViewManager.h>
+//#import <MQChatViewStyle.h>
+//#import <UIImageView+WebCache.h>
+#import "MJRefresh.h"
+#import "UIColor+MQHex.h"
+#import "Config.h"
+//#import "GCDSocketManager.h"
+//#import "SocketRocketUtility.h"
+
+///** 颜色 */
+//let KColorGray = UIColor.init(hexString: "999999")
+//#define KColorGrayShallow           UIColor.init(hexString: "c8c8c8")
+//#define KColorBlack                 UIColor.init(hexString: "5f5f5f")
+//#define KColorBackground            UIColor.init(hexString: "fafafa")
+//#define KColorBlue                  UIColor.init(hexString: "56abe4")
+//#define KColorBlack3                UIColor.init(hexString: "333333")
+//#define KColorgreen                 UIColor.init(hexString: "4ad2d0")
+//
+//#define kColorGrayCell              UIColor.init(hexString: "F0F0F0")
+//
+///** 系统通知 */
+//#define KColorgreenIcon             UIColor.init(hexString: "55d0bc")
+///** 任务通知 */
+//#define KColorblueIcon              UIColor.init(hexString: "70b9e6")
+///** 终端通知 */
+//#define KColororangeIcon            UIColor.init(hexString: "ec8960")
+
+#endif /* Kinema_Swift_pch */
+
+
+
+

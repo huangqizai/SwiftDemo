@@ -1,0 +1,6 @@
+framework module PGNetworkHelper {
+  umbrella header "PGNetworkHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

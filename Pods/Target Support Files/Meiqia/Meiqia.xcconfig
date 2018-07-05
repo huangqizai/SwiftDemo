@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/Meiqia
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Meiqia/Meiqia-SDK-files"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Meiqia/Meiqia-SDK-files/MQChatViewController/Vendors/MLAudioRecorder/amr_en_de/lib" "$(PODS_ROOT)/Meiqia/Meiqia-SDK-files"
+OTHER_LDFLAGS = -l"icucore" -l"opencore-amrnb" -l"opencore-amrwb" -l"sqlite3" -l"stdc++" -framework "AVFoundation" -framework "CoreTelephony" -framework "MeiQiaSDK" -framework "MobileCoreServices" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/Meiqia
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

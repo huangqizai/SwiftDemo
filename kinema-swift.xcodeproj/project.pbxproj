@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12130F9F25A2CE21CF71443D /* Pods_kinema_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433E0B534E2EE3A52B8CCF1B /* Pods_kinema_swiftTests.framework */; };
+		204F6D5DABBAD65FD01026AC /* Pods_kinema_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7026C4E22E273E45577456 /* Pods_kinema_swift.framework */; };
+		86879DB3E95921DA3C749EA1 /* Pods_kinema_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25D8C3DF7A8A16FAB0010C6 /* Pods_kinema_swiftUITests.framework */; };
+		8845437920EDF22900C8E55A /* CinemasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845437820EDF22900C8E55A /* CinemasCollectionViewCell.swift */; };
+		8845437B20EE0FDD00C8E55A /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845437A20EE0FDD00C8E55A /* TaskTableViewCell.swift */; };
+		8845437D20EE13A100C8E55A /* MineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845437C20EE13A100C8E55A /* MineTableViewCell.swift */; };
+		8848B35E20ECB077006AEF97 /* ApiServer+DataProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848B35720ECB076006AEF97 /* ApiServer+DataProcessing.m */; };
+		8848B35F20ECB077006AEF97 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848B35820ECB076006AEF97 /* DataService.m */; };
+		8848B36020ECB077006AEF97 /* ApiServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848B35C20ECB077006AEF97 /* ApiServer.m */; };
+		8848B36120ECB077006AEF97 /* HMHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848B35D20ECB077006AEF97 /* HMHttpUtil.m */; };
+		8848B36320ECB312006AEF97 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8848B36220ECB312006AEF97 /* LoginModel.swift */; };
+		8848B36520ECB369006AEF97 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8848B36420ECB369006AEF97 /* UserManager.swift */; };
+		8848B36720ECCCD6006AEF97 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8848B36620ECCCD6006AEF97 /* TaskViewController.swift */; };
+		8848B36920ECCCE4006AEF97 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8848B36820ECCCE4006AEF97 /* MineViewController.swift */; };
+		8848B36B20ECCD02006AEF97 /* CinemasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8848B36A20ECCD02006AEF97 /* CinemasViewController.swift */; };
+		8867537B20EB53A100E23877 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867537A20EB53A100E23877 /* BaseViewController.swift */; };
+		8867537D20EB53B400E23877 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867537C20EB53B400E23877 /* BaseView.swift */; };
+		8867537F20EB53C500E23877 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867537E20EB53C500E23877 /* BaseModel.swift */; };
+		8867539520EB55B000E23877 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867539420EB55B000E23877 /* BaseTextField.swift */; };
+		8867539720EB55D800E23877 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867539620EB55D800E23877 /* BaseTableViewCell.swift */; };
+		8867539A20EB594400E23877 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867539920EB594400E23877 /* LoginViewController.swift */; };
+		8867539E20EB5C7400E23877 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867539D20EB5C7400E23877 /* LoginView.swift */; };
 		886E553920CE6809005D7911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E553820CE6809005D7911 /* AppDelegate.swift */; };
 		886E553B20CE6809005D7911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E553A20CE6809005D7911 /* ViewController.swift */; };
 		886E553E20CE6809005D7911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886E553C20CE6809005D7911 /* Main.storyboard */; };
@@ -14,6 +36,8 @@
 		886E554320CE680B005D7911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886E554120CE680B005D7911 /* LaunchScreen.storyboard */; };
 		886E554E20CE680B005D7911 /* kinema_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E554D20CE680B005D7911 /* kinema_swiftTests.swift */; };
 		886E555920CE680B005D7911 /* kinema_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E555820CE680B005D7911 /* kinema_swiftUITests.swift */; };
+		8897A65220EDC4B300A319D8 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A65120EDC4B300A319D8 /* BaseTabBarController.swift */; };
+		8897A65420EDC4E500A319D8 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A65320EDC4E500A319D8 /* Public.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +58,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05ECFB1C6A85554F7449920E /* Pods-kinema-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinema-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-kinema-swift/Pods-kinema-swift.release.xcconfig"; sourceTree = "<group>"; };
+		433E0B534E2EE3A52B8CCF1B /* Pods_kinema_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinema_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F323CEB3DDDA0A68DC2C62C /* Pods-kinema-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinema-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kinema-swiftUITests/Pods-kinema-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83F5F9D95A342FE1A1C938ED /* Pods-kinema-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinema-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kinema-swiftTests/Pods-kinema-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		8845437820EDF22900C8E55A /* CinemasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasCollectionViewCell.swift; sourceTree = "<group>"; };
+		8845437A20EE0FDD00C8E55A /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		8845437C20EE13A100C8E55A /* MineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineTableViewCell.swift; sourceTree = "<group>"; };
+		8848B35520ECB076006AEF97 /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		8848B35620ECB076006AEF97 /* ApiServer+DataProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ApiServer+DataProcessing.h"; sourceTree = "<group>"; };
+		8848B35720ECB076006AEF97 /* ApiServer+DataProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ApiServer+DataProcessing.m"; sourceTree = "<group>"; };
+		8848B35820ECB076006AEF97 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
+		8848B35920ECB076006AEF97 /* ApiServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiServer.h; sourceTree = "<group>"; };
+		8848B35A20ECB076006AEF97 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		8848B35B20ECB077006AEF97 /* HMHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHttpUtil.h; sourceTree = "<group>"; };
+		8848B35C20ECB077006AEF97 /* ApiServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiServer.m; sourceTree = "<group>"; };
+		8848B35D20ECB077006AEF97 /* HMHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHttpUtil.m; sourceTree = "<group>"; };
+		8848B36220ECB312006AEF97 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8848B36420ECB369006AEF97 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		8848B36620ECCCD6006AEF97 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		8848B36820ECCCE4006AEF97 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		8848B36A20ECCD02006AEF97 /* CinemasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasViewController.swift; sourceTree = "<group>"; };
+		8867537A20EB53A100E23877 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8867537C20EB53B400E23877 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		8867537E20EB53C500E23877 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		8867539420EB55B000E23877 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		8867539620EB55D800E23877 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		8867539820EB563800E23877 /* Kinema-Swift.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kinema-Swift.pch"; sourceTree = "<group>"; };
+		8867539920EB594400E23877 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8867539D20EB5C7400E23877 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8867539F20EB6E9A00E23877 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		886E553520CE6809005D7911 /* kinema-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kinema-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886E553820CE6809005D7911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		886E553A20CE6809005D7911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +101,13 @@
 		886E555420CE680B005D7911 /* kinema-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kinema-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886E555820CE680B005D7911 /* kinema_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kinema_swiftUITests.swift; sourceTree = "<group>"; };
 		886E555A20CE680B005D7911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8897A65120EDC4B300A319D8 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		8897A65320EDC4E500A319D8 /* Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		89521155FD7C614100EEC550 /* Pods-kinema-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinema-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kinema-swiftUITests/Pods-kinema-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B761CCF6412F28DB313B1F3 /* Pods-kinema-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinema-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kinema-swiftTests/Pods-kinema-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B25D8C3DF7A8A16FAB0010C6 /* Pods_kinema_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinema_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C1B5FC709F3EFD96037E01 /* Pods-kinema-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinema-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kinema-swift/Pods-kinema-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		ED7026C4E22E273E45577456 /* Pods_kinema_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinema_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204F6D5DABBAD65FD01026AC /* Pods_kinema_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12130F9F25A2CE21CF71443D /* Pods_kinema_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +131,224 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86879DB3E95921DA3C749EA1 /* Pods_kinema_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2804EB929B279B4B4933C316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7026C4E22E273E45577456 /* Pods_kinema_swift.framework */,
+				433E0B534E2EE3A52B8CCF1B /* Pods_kinema_swiftTests.framework */,
+				B25D8C3DF7A8A16FAB0010C6 /* Pods_kinema_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8848B35420ECB05E006AEF97 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8848B35920ECB076006AEF97 /* ApiServer.h */,
+				8848B35C20ECB077006AEF97 /* ApiServer.m */,
+				8848B35620ECB076006AEF97 /* ApiServer+DataProcessing.h */,
+				8848B35720ECB076006AEF97 /* ApiServer+DataProcessing.m */,
+				8848B35A20ECB076006AEF97 /* Config.h */,
+				8848B35520ECB076006AEF97 /* DataService.h */,
+				8848B35820ECB076006AEF97 /* DataService.m */,
+				8848B35B20ECB077006AEF97 /* HMHttpUtil.h */,
+				8848B35D20ECB077006AEF97 /* HMHttpUtil.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8867537620EB532400E23877 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8867537920EB536300E23877 /* Model */,
+				8867537720EB536300E23877 /* View */,
+				8867537820EB536300E23877 /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8867537720EB536300E23877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8867537C20EB53B400E23877 /* BaseView.swift */,
+				8867539420EB55B000E23877 /* BaseTextField.swift */,
+				8867539620EB55D800E23877 /* BaseTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8867537820EB536300E23877 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8897A65020EDC4B300A319D8 /* CustomTabBar */,
+				8867537A20EB53A100E23877 /* BaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8867537920EB536300E23877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8867537E20EB53C500E23877 /* BaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8867538020EB53F000E23877 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8867538120EB542000E23877 /* Model */,
+				8867538220EB542000E23877 /* View */,
+				8867538320EB542000E23877 /* ViewControler */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8867538120EB542000E23877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8848B36220ECB312006AEF97 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8867538220EB542000E23877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8867539D20EB5C7400E23877 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8867538320EB542000E23877 /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				8867539920EB594400E23877 /* LoginViewController.swift */,
+			);
+			path = ViewControler;
+			sourceTree = "<group>";
+		};
+		8867538420EB548000E23877 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8867538520EB548000E23877 /* Model */,
+				8867538620EB548000E23877 /* View */,
+				8867538720EB548000E23877 /* ViewController */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8867538520EB548000E23877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8867538620EB548000E23877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8845437C20EE13A100C8E55A /* MineTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8867538720EB548000E23877 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8848B36820ECCCE4006AEF97 /* MineViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8867538820EB54C500E23877 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				8867538920EB54C500E23877 /* Model */,
+				8867538A20EB54C500E23877 /* View */,
+				8867538B20EB54C500E23877 /* ViewController */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		8867538920EB54C500E23877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8867538A20EB54C500E23877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8845437A20EE0FDD00C8E55A /* TaskTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8867538B20EB54C500E23877 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8848B36620ECCCD6006AEF97 /* TaskViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8867538C20EB550C00E23877 /* Cinemas */ = {
+			isa = PBXGroup;
+			children = (
+				8867538D20EB550C00E23877 /* Model */,
+				8867538E20EB550C00E23877 /* View */,
+				8867538F20EB550C00E23877 /* ViewController */,
+			);
+			path = Cinemas;
+			sourceTree = "<group>";
+		};
+		8867538D20EB550C00E23877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8867538E20EB550C00E23877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8845437820EDF22900C8E55A /* CinemasCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8867538F20EB550C00E23877 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8848B36A20ECCD02006AEF97 /* CinemasViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8867539020EB553900E23877 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8848B36420ECB369006AEF97 /* UserManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8867539120EB556700E23877 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		886E552C20CE6808005D7911 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +356,8 @@
 				886E554C20CE680B005D7911 /* kinema-swiftTests */,
 				886E555720CE680B005D7911 /* kinema-swiftUITests */,
 				886E553620CE6809005D7911 /* Products */,
+				C2FF72F5CBB45C430CCDC31F /* Pods */,
+				2804EB929B279B4B4933C316 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +374,22 @@
 		886E553720CE6809005D7911 /* kinema-swift */ = {
 			isa = PBXGroup;
 			children = (
+				8848B35420ECB05E006AEF97 /* NetWork */,
+				8867539120EB556700E23877 /* Categories */,
+				8867539020EB553900E23877 /* Manager */,
+				8867538C20EB550C00E23877 /* Cinemas */,
+				8867538820EB54C500E23877 /* Task */,
+				8867538420EB548000E23877 /* Mine */,
+				8867538020EB53F000E23877 /* Login */,
+				8867537620EB532400E23877 /* Base */,
 				886E553820CE6809005D7911 /* AppDelegate.swift */,
 				886E553A20CE6809005D7911 /* ViewController.swift */,
 				886E553C20CE6809005D7911 /* Main.storyboard */,
 				886E553F20CE680B005D7911 /* Assets.xcassets */,
 				886E554120CE680B005D7911 /* LaunchScreen.storyboard */,
 				886E554420CE680B005D7911 /* Info.plist */,
+				8867539820EB563800E23877 /* Kinema-Swift.pch */,
+				8867539F20EB6E9A00E23877 /* Header.h */,
 			);
 			path = "kinema-swift";
 			sourceTree = "<group>";
@@ -125,6 +412,28 @@
 			path = "kinema-swiftUITests";
 			sourceTree = "<group>";
 		};
+		8897A65020EDC4B300A319D8 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8897A65120EDC4B300A319D8 /* BaseTabBarController.swift */,
+				8897A65320EDC4E500A319D8 /* Public.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		C2FF72F5CBB45C430CCDC31F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1B5FC709F3EFD96037E01 /* Pods-kinema-swift.debug.xcconfig */,
+				05ECFB1C6A85554F7449920E /* Pods-kinema-swift.release.xcconfig */,
+				9B761CCF6412F28DB313B1F3 /* Pods-kinema-swiftTests.debug.xcconfig */,
+				83F5F9D95A342FE1A1C938ED /* Pods-kinema-swiftTests.release.xcconfig */,
+				4F323CEB3DDDA0A68DC2C62C /* Pods-kinema-swiftUITests.debug.xcconfig */,
+				89521155FD7C614100EEC550 /* Pods-kinema-swiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +441,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 886E555D20CE680B005D7911 /* Build configuration list for PBXNativeTarget "kinema-swift" */;
 			buildPhases = (
+				7B2C27B353A2B31497313E50 /* [CP] Check Pods Manifest.lock */,
 				886E553120CE6809005D7911 /* Sources */,
 				886E553220CE6809005D7911 /* Frameworks */,
 				886E553320CE6809005D7911 /* Resources */,
+				22A7362C7C7A2BA0F04B8BD3 /* [CP] Embed Pods Frameworks */,
+				B2946C7E40847BF824942AC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +461,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 886E556020CE680B005D7911 /* Build configuration list for PBXNativeTarget "kinema-swiftTests" */;
 			buildPhases = (
+				49111F12D8A12129E99FD8F8 /* [CP] Check Pods Manifest.lock */,
 				886E554520CE680B005D7911 /* Sources */,
 				886E554620CE680B005D7911 /* Frameworks */,
 				886E554720CE680B005D7911 /* Resources */,
@@ -167,6 +480,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 886E556320CE680B005D7911 /* Build configuration list for PBXNativeTarget "kinema-swiftUITests" */;
 			buildPhases = (
+				B22CFDF75EFDC93168D4E6D9 /* [CP] Check Pods Manifest.lock */,
 				886E555020CE680B005D7911 /* Sources */,
 				886E555120CE680B005D7911 /* Frameworks */,
 				886E555220CE680B005D7911 /* Resources */,
@@ -251,13 +565,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22A7362C7C7A2BA0F04B8BD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kinema-swift/Pods-kinema-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BRPickerView/BRPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Meiqia/Meiqia.framework",
+				"${BUILT_PRODUCTS_DIR}/PGNetworkHelper/PGNetworkHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/STQRCodeController/STQRCodeController.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/TOActionSheet/TOActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Meiqia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGNetworkHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STQRCodeController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kinema-swift/Pods-kinema-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49111F12D8A12129E99FD8F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kinema-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B2C27B353A2B31497313E50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kinema-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B22CFDF75EFDC93168D4E6D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kinema-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2946C7E40847BF824942AC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kinema-swift/Pods-kinema-swift-resources.sh",
+				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kinema-swift/Pods-kinema-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		886E553120CE6809005D7911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8867539A20EB594400E23877 /* LoginViewController.swift in Sources */,
+				8867539720EB55D800E23877 /* BaseTableViewCell.swift in Sources */,
+				8845437B20EE0FDD00C8E55A /* TaskTableViewCell.swift in Sources */,
+				8897A65420EDC4E500A319D8 /* Public.swift in Sources */,
+				8897A65220EDC4B300A319D8 /* BaseTabBarController.swift in Sources */,
+				8845437920EDF22900C8E55A /* CinemasCollectionViewCell.swift in Sources */,
+				8848B36120ECB077006AEF97 /* HMHttpUtil.m in Sources */,
+				8848B36B20ECCD02006AEF97 /* CinemasViewController.swift in Sources */,
 				886E553B20CE6809005D7911 /* ViewController.swift in Sources */,
+				8845437D20EE13A100C8E55A /* MineTableViewCell.swift in Sources */,
+				8848B35F20ECB077006AEF97 /* DataService.m in Sources */,
+				8848B36020ECB077006AEF97 /* ApiServer.m in Sources */,
+				8848B36520ECB369006AEF97 /* UserManager.swift in Sources */,
 				886E553920CE6809005D7911 /* AppDelegate.swift in Sources */,
+				8867539520EB55B000E23877 /* BaseTextField.swift in Sources */,
+				8848B35E20ECB077006AEF97 /* ApiServer+DataProcessing.m in Sources */,
+				8848B36920ECCCE4006AEF97 /* MineViewController.swift in Sources */,
+				8848B36320ECB312006AEF97 /* LoginModel.swift in Sources */,
+				8867537B20EB53A100E23877 /* BaseViewController.swift in Sources */,
+				8867537D20EB53B400E23877 /* BaseView.swift in Sources */,
+				8848B36720ECCCD6006AEF97 /* TaskViewController.swift in Sources */,
+				8867539E20EB5C7400E23877 /* LoginView.swift in Sources */,
+				8867537F20EB53C500E23877 /* BaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +886,12 @@
 		};
 		886E555E20CE680B005D7911 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C1B5FC709F3EFD96037E01 /* Pods-kinema-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NE6322S7DK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Kinema-swift/Kinema-Swift.pch";
 				INFOPLIST_FILE = "kinema-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,16 +899,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fhyx.fykc.kinema-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Kinema-swift/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		886E555F20CE680B005D7911 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05ECFB1C6A85554F7449920E /* Pods-kinema-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NE6322S7DK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Kinema-swift/Kinema-Swift.pch";
 				INFOPLIST_FILE = "kinema-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,13 +921,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fhyx.fykc.kinema-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Kinema-swift/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
 		886E556120CE680B005D7911 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B761CCF6412F28DB313B1F3 /* Pods-kinema-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +951,7 @@
 		};
 		886E556220CE680B005D7911 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F5F9D95A342FE1A1C938ED /* Pods-kinema-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +972,7 @@
 		};
 		886E556420CE680B005D7911 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F323CEB3DDDA0A68DC2C62C /* Pods-kinema-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +992,7 @@
 		};
 		886E556520CE680B005D7911 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89521155FD7C614100EEC550 /* Pods-kinema-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

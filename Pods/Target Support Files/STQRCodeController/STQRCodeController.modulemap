@@ -1,0 +1,6 @@
+framework module STQRCodeController {
+  umbrella header "STQRCodeController-umbrella.h"
+
+  export *
+  module * { export * }
+}

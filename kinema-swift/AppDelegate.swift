@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import RTRootNavigationController
+import IQKeyboardManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +17,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.makeKeyAndVisible()
+        let loginVC = LoginViewController()
+        let nav = RTRootNavigationController.init(rootViewController: loginVC)
+        self.window?.rootViewController = nav
+        
+        self.IQKeyBoard()
+        
         return true
+    }
+    
+    func IQKeyBoard() -> Void {
+        let keyBoardManager = IQKeyboardManager.shared()
+        keyBoardManager.isEnabled = true // 控制整个功能是否启用
+        keyBoardManager.shouldResignOnTouchOutside = true // 控制点击背景是否收起键盘
+        keyBoardManager.shouldToolbarUsesTextFieldTintColor = true // 控制键盘上的工具条文字颜色是否用户自定义
+        keyBoardManager.isEnableAutoToolbar = true // 控制是否显示键盘工具条
+        keyBoardManager.shouldShowToolbarPlaceholder = true // 是否显示站位文字
+        keyBoardManager.placeholderFont = UIFont.boldSystemFont(ofSize: 17) // 设置占位文字字体
+        keyBoardManager.keyboardDistanceFromTextField = 10.0 // 输入框距离键盘的距离
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
