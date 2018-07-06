@@ -10,19 +10,9 @@ import UIKit
 
 class TaskViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource  {
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
-    }
+    var dataSourceArr : NSMutableArray?
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.cellForRow(at: indexPath)
-        if !(cell != nil) {
-            cell = TaskTableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        }
-        cell?.textLabel?.text = "任务"
-        return cell!
-    }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,6 +20,17 @@ class TaskViewController: BaseViewController,UITableViewDelegate,UITableViewData
         self.view.backgroundColor = UIColor.lightGray
         
         self.initTableView()
+        dataSourceArr = self.getData()
+    }
+    
+    func getData() -> NSMutableArray {
+        let dataSource = NSMutableArray()
+        
+        for index in 1...20 {
+            let dataStr = NSString.localizedStringWithFormat("任务%d", index)
+            dataSource.add(dataStr)
+        }
+        return dataSource
     }
     
     func initTableView() -> Void {
@@ -44,8 +45,29 @@ class TaskViewController: BaseViewController,UITableViewDelegate,UITableViewData
             make?.right.equalTo()(self.view)
             make?.left.equalTo()(self.view)
         }
-        
     }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (dataSourceArr?.count)!
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let content = dataSourceArr![indexPath.row]
+        
+        var cell = tableView.cellForRow(at: indexPath)
+        if !(cell != nil) {
+            cell = TaskTableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        }
+        cell?.textLabel?.text = (content as! String)
+        return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        print("点击")
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

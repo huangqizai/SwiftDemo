@@ -46,6 +46,8 @@ class CinemasViewController: BaseViewController ,UICollectionViewDelegate,UIColl
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellid", for: indexPath)
         cell.contentView.backgroundColor = UIColor.white
+        
+//        cell.
         return cell
     }
     
