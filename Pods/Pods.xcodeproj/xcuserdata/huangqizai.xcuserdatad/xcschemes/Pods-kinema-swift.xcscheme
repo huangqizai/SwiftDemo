@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9E9E9EF96BFDD5D060BFF8849740D64"
+               BlueprintIdentifier = "6A719DEEBCF3D7603E441AC1C2CE9106"
                BuildableName = "Pods_kinema_swift.framework"
                BlueprintName = "Pods-kinema-swift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F9E9E9EF96BFDD5D060BFF8849740D64"
+            BlueprintIdentifier = "6A719DEEBCF3D7603E441AC1C2CE9106"
             BuildableName = "Pods_kinema_swift.framework"
             BlueprintName = "Pods-kinema-swift"
             ReferencedContainer = "container:Pods.xcodeproj">

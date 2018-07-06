@@ -14,24 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - AMap2DMap (5.6.0):
-    - AMapFoundation (~> 1.4)
-  - AMapFoundation (1.4.3)
-  - AMapLocation (2.6.0):
-    - AMapFoundation (~> 1.4)
-  - BRPickerView (2.1.3)
-  - Bugly (2.5.0)
-  - CocoaAsyncSocket (7.6.3)
   - IQKeyboardManager (5.0.8)
   - Masonry (1.1.0)
-  - Meiqia (3.4.5):
-    - Meiqia/MeiqiaSDK (= 3.4.5)
-    - Meiqia/MQChatViewController (= 3.4.5)
-  - Meiqia/MeiqiaSDK (3.4.5)
-  - Meiqia/MQChatViewController (3.4.5):
-    - Meiqia/MeiqiaSDK
   - MJExtension (3.0.13)
-  - MJRefresh (3.1.15.3)
   - PGNetworkHelper (2.0.1):
     - AFNetworking
     - PINCache
@@ -39,85 +24,40 @@ PODS:
   - RTRootNavigationController (0.6.6):
     - RTRootNavigationController/Core (= 0.6.6)
   - RTRootNavigationController/Core (0.6.6)
-  - SDWebImage (4.3.3):
-    - SDWebImage/Core (= 4.3.3)
-  - SDWebImage/Core (4.3.3)
-  - SocketRocket (0.5.1)
-  - STQRCodeController (1.4)
-  - TOActionSheet (1.0.3)
-  - WechatOpenSDK (1.8.2)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.0)
-  - AMap2DMap (~> 5.6.0)
-  - AMapLocation (~> 2.6.0)
-  - BRPickerView (~> 2.1.2)
-  - Bugly (~> 2.5.0)
-  - CocoaAsyncSocket (~> 7.6.3)
   - IQKeyboardManager (~> 5.0.8)
   - Masonry (~> 1.1.0)
-  - Meiqia (~> 3.4.5)
   - MJExtension (~> 3.0.13)
-  - MJRefresh (~> 3.1.15.3)
   - PGNetworkHelper (~> 2.0.1)
   - RTRootNavigationController (~> 0.6.6)
-  - SDWebImage (~> 4.3.2)
-  - SocketRocket (~> 0.5.1)
-  - STQRCodeController (~> 1.4)
-  - TOActionSheet (~> 1.0.3)
-  - WechatOpenSDK (~> 1.8.1)
   - YYCategories (~> 1.0.4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - AMap2DMap
-    - AMapFoundation
-    - AMapLocation
-    - BRPickerView
-    - Bugly
-    - CocoaAsyncSocket
     - IQKeyboardManager
     - Masonry
-    - Meiqia
     - MJExtension
-    - MJRefresh
     - PGNetworkHelper
     - PINCache
     - RTRootNavigationController
-    - SDWebImage
-    - SocketRocket
-    - STQRCodeController
-    - TOActionSheet
-    - WechatOpenSDK
     - YYCategories
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  AMap2DMap: cf0bfd6ae97951b55cc061903b814f924ba6c221
-  AMapFoundation: 973682cfe60b92efd73a8ef8f1144fa0fa8e1296
-  AMapLocation: 55116a2c8956eab7550cbb56e989aa5cdcc424e3
-  BRPickerView: 8f46cd720628328f28cb19dfbb608bd4605f1a5b
-  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
-  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  Meiqia: 17055d9abb1269243d82d9d8adb27151a1b6ef40
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   PGNetworkHelper: 829dfea7c1d4b26c4473696147201d56e0c2b136
   PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
   RTRootNavigationController: 1429554f853e8319a383849befed73d5dc58a108
-  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
-  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
-  STQRCodeController: 8d1ce4218d873dd9591600f3718bccc48cc9f450
-  TOActionSheet: ada6db7a241f82e5c8b03dc07183a1b8758038ad
-  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 021d720c46c2e6cd3785ceb06ff422934686f29b
+PODFILE CHECKSUM: 95dcc0e030c991eabeb95335cfffa884a80f13d1
 
 COCOAPODS: 1.5.0

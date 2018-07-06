@@ -1,6 +1,0 @@
-framework module TOActionSheet {
-  umbrella header "TOActionSheet-umbrella.h"
-
-  export *
-  module * { export * }
-}
