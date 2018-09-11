@@ -18,7 +18,6 @@ class LoginViewController: BaseViewController {
         
         self.setViews()
         
-        print("swiftDemo2");
     }
     
     func setViews() -> Void {

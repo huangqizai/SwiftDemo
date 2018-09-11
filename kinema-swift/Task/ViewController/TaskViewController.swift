@@ -22,11 +22,10 @@ class TaskViewController: BaseViewController,UITableViewDelegate,UITableViewData
         self.initTableView()
         dataSourceArr = self.getData()
         
-        print("swiftDemo1");
-        print("swiftDemo1");
-        print("swiftDemo1");
-        print("swiftDemo1");
-        print("swiftDemo1");
+        print("swift22");
+        print("swift22");
+        print("swift22");
+    
     }
     
     func getData() -> NSMutableArray {
