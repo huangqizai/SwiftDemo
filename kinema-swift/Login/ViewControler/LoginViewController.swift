@@ -19,6 +19,8 @@ class LoginViewController: BaseViewController {
         self.setViews()
         
         print("n你好");
+        
+        print("nihao ");
     }
     
     func setViews() -> Void {
