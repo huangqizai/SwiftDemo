@@ -21,6 +21,10 @@ class LoginViewController: BaseViewController {
         print("n你好");
         
         print("nihao ");
+        
+        print("nihao ");
+        print("nihao ");
+        print("nihao ");
     }
     
     func setViews() -> Void {
