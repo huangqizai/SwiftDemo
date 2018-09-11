@@ -18,7 +18,9 @@ class LoginViewController: BaseViewController {
         
         self.setViews()
         
-        print("swiftDemo2");
+        print("swift11");
+        print("swift11");
+        print("swift11");
     }
     
     func setViews() -> Void {
